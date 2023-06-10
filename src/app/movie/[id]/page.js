@@ -23,7 +23,7 @@ const options = {
     return(
         <>
         <div className={styles.container}>
-            <h2 className={styles.movie_title}>Netflix <span>{mainData.type}</span></h2>
+            <h2 className={styles.movie_title}>Netflix / <span>{mainData.type}</span></h2>
             <div className={styles.card_section}>
                 <div>
                 <Image 

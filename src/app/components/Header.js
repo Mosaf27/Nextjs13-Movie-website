@@ -7,7 +7,7 @@ const Header = ()=>{
     return(
         <header className={Styles.main_header}>
             <div className={Styles.navbar_brand}>
-            <Link href="/" >
+            <Link href="/" >                 
             <Image 
             src="/images/netflix.png"
             height={60}
